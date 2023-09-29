@@ -1,0 +1,25 @@
+{
+  "name": "aoe-app-components",
+  "version": "0.0.1",
+  "description": "📦",
+  "type": "module",
+  "main": "",
+  "scripts": {
+    "build": "rimraf packages && rollup -c rollup.config.ts -p rollup-plugin-typescript2 --bundleConfigAsCjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rollup": "^3.29.4",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@rollup/plugin-alias": "^5.0.0",
+    "@rollup/plugin-node-resolve": "^15.2.1",
+    "rimraf": "^5.0.5",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "rollup-plugin-vue": "^6.0.0",
+    "typescript": "^5.2.2"
+  }
+}
